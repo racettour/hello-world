@@ -1,7 +1,8 @@
-def hello():
-  print('hello word')
+def hello(sayhello):
+  if sayhello == True:
+    print('hello word')
 
 
 
 
-hello()
+hello(True)
